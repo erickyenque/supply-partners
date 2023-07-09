@@ -1,3 +1,9 @@
+<?php
+    if (isset($_SESSION['id'])) {
+        header("Location: index.php");        ;
+    }
+?>
+
 <div class="row">
     <div class="col-12 text-center pt-5">
         <img class="img-logo" src="public/img/logo_sp.png" alt="" />
@@ -9,10 +15,10 @@
                     Bienvenidos a Supply Partners
                 </h6>
                 <div class="d-grid gap-3">
-                    <button type="button" class="btn btn-danger btn-google">
+                    <button type="button" class="btn btn-danger btn-google" id="sign-in-gmail">
                         <img src="public/icons/google.png" alt="" /> Iniciar Sesión con Google
                     </button>
-                    <button type="button" class="btn btn-primary btn-facebook">
+                    <button type="button" class="btn btn-primary btn-facebook" id="sign-in-facebook">
                         <img src="public/icons/facebook.png" alt="" /> Iniciar Sesión con Facebook
                     </button>
                 </div>

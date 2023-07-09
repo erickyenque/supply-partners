@@ -71,3 +71,8 @@ h1 {
     background-color: rgb(233, 226, 226);
     cursor: pointer;
 }
+
+.logout-icon::before {
+    content: "\2716";
+    font-size: 15px;
+  }

@@ -1,3 +1,5 @@
+<?php require_once 'template/session.php'; ?>
+<?php require_once 'template/nav.php'; ?>
 
 <div class="row">
 	<div class="col-12 text-center pt-5">
